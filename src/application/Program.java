@@ -35,8 +35,8 @@ public class Program {
                 list.add(new pessoaFisica(name,income,heathExpenditures));
             } else {
                 System.out.print("Number of employess: ");
-                int employess = sc.nextInt();
-                list.add(new pessoaJuridica(name,income,employess));
+                int employees = sc.nextInt();
+                list.add(new pessoaJuridica(name,income,employees));
             }
         }
 
